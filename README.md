@@ -23,15 +23,12 @@ The primary objectives of this project are:
 
 To achieve the objectives mentioned above, the following steps were taken:
 
-1. Data Preprocessing:
-   - Utilized three individual filters, including moving average, clipping, and Butterworth, to address skewed data and outliers in complex activity recognition.
-
-2. Time Synchronization:
+1. Time Synchronization:
    - Implemented a queue-based approach to synchronize data collected from different sources.
    - The data closest to the last appended entry in the combined queue was selected for time synchronization.
    - Time synchronization was performed for the acceleration and gyroscopic event data from sense and smartwatch sources.
 
-3. Noise Reduction:
+2. Noise Reduction:
    - Applied a dynamic buffer
 
 
